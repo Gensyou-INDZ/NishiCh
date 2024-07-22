@@ -1,0 +1,100 @@
+header, body, main, nav{
+    display: block;
+}
+
+h1{
+    line-height: 200%;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+#navbar {
+    text-align: Left;
+    font-weight: bold;
+    font-size: 105%;
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    bottom: 240px;
+    z-index: 99;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    width: 150px;
+}
+
+a:link{
+    color: #5c5000;
+}
+
+a:visited{
+    color: #D2B48C;
+}
+
+a:hover{
+    color: #c93;
+}
+
+main{
+    padding: 0em 0em 0em 2em;
+    display: block;
+    /* padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em; */
+    margin-left: 200px;
+}
+
+main h2, main h4, main p, main div, main ul, main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+
+ol{
+   list-style: none;
+}
+
+body{
+    background-image: url(Photo_and_Pictures/Background_Base.png);
+    background-size: 180%;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+audio {
+    display: none;
+}
+
+.image-container {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 5px; /* Adjust padding as needed */
+    transition: 0.4s;
+}
+
+.image-container img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%;
+}
+
+.image-container:hover{
+    transform: scale(2)
+}
+
+footer{
+    text-align: center;
+    font-size: .6em;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
